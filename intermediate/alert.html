@@ -12,7 +12,7 @@
 <button onclick="fx('none')">
 close</button></div>
 
-<button onclick="fx('block')">
+<button id = "op">
 open</button>
 
 <div><button onclick="hx('put id')">fisrt</button>
@@ -22,6 +22,11 @@ open</button>
 
 
 <script>
+  document.getElementById('op').addEventListener('click', function(){
+    document.getElementById('a').style.display = 'block';
+  })
+
+
   function fx(h){
     document.getElementById('a').style.display = h;
   }
