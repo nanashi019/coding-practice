@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="name.css">
+  </head>
+  <body>
+    <div class="alert-box" id="a">
+      <p>alert box</p>
+
+<button onclick="fx('none')">
+close</button></div>
+
+<button onclick="fx('block')">
+open</button>
+
+<div><button onclick="hx('put id')">fisrt</button>
+</div>
+<button onclick="hx('put password')">second</button>
+
+
+
+<script>
+  function fx(h){
+    document.getElementById('a').style.display = h;
+  }
+
+  function hx(x){
+    document.getElementById('a').style.display = 'block';
+    document.getElementById('a').style.background = 'lightblue';
+    document.getElementById('a').innerHTML = x;
+  }
+
+
+</script>
+  </body>
+</html>
