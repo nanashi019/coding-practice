@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+
+    <h1>fuck off</h1>
+<br>
+
+<input id="nightday" type="button" value="night" onclick="
+
+if(document.querySelector('#nightday').value==='night'){
+document.querySelector('body').style.backgroundColor='black';
+document.querySelector('body').style.color='white';
+documnet.querySelector('#nightday').value='day';
+}">
+
+  </body>
+</html>
